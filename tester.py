@@ -176,3 +176,5 @@ def check_data(input_data, output_data, use_cols):
     describe_data(data, use_cols)
     # Zapisz przetworzone dane do nowego pliku
     data.to_csv(output_data)
+    # Zwroc przetworzone dane
+    return data
